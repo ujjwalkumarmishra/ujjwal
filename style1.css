@@ -1,0 +1,159 @@
+header{
+    margin: 0;
+    padding:15px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Bangers', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: rgb(18,155,155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px so;id white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 40px;
+    text-shadow: 3px 3px 4px gray;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+    
+}
+nav ul li a{
+    color: rgb(72, 68, 68);
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    color: rgb(122, 62, 62);
+}
+
+.search{
+  display: flex;
+  gap: 35px;
+}
+
+input{
+    padding: 4px 10px;
+}
+
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-left h1{
+  font-size: 40px;
+  margin: 20px;
+  font-weight: 700;
+}
+
+.main-left h1 span{
+    color: rgb(18,155,155);
+    font-weight: 900px;
+    font-size: 2.5rem; 
+}
+
+.main-left p{
+    font-weight: 500;
+}
+
+.main-left p span{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(18,155,155);
+}
+
+.main-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-right button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-right img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+footer p{
+    font-weight: 600;
+
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+footer ul li a {
+color: gray;
+}
+
+footer ul li a:hover {
+    color: rgba(11, 17, 83, 0.982);
+
+    }
